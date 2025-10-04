@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none   ;
+    list-style: none;
+}
+body{
+    font-family: "Roboto" , sans-serif;
+}
+
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    flex-wrap: wrap;
+   
+}
+ul,li{
+    display: flex;
+    gap: 20px;
+}
+header > h1{
+    color: rgba(216, 9, 19);
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+header > .topRight{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+}
+.topRight > div{
+    background-color: red;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+
+header > ul > li >a {
+    color: rgba(227, 227, 227);
+    font-size: bold;
+    font-size: 17px;
+    word-spacing: 2px;
+   
+    
+
+}
+
+
+main > .topsection{
+   width: 100%;
+   height: 80vh;
+    background-image: url(https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   
+
+}
+main{
+    background-color: black;
+}
+
+.topsection > .content{
+    width: 40%;
+    color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topsection > .content > h1{
+    font-size: 60px;
+}
+.topsection > .content > p{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgba(224, 227, 228);
+}
+
+.content > .btndiv{
+    margin-top: 20px;
+}
+#whitebtn{
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+#blakishbtn{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(81, 80, 80);
+    color: white;
+}
+
+.trendingNow{
+    padding-left: 10px;
+}
+
+.trendingNow > .Trendingmovie{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin-top: 10px;
+}
+
+.trendingNow > .Trendingmovie > div{
+    /* width: 250px; */
+     height: 300px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-end;
+    gap: 5px;
+    border-radius: 7px;
+   
+
+}
+
+/* secound section */
+
+ .orignalmovie{
+    display: flex;
+ }
+
+.netflixorignal > .orignalmovie > div{
+      height: 300px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-end;
+    gap: 5px;
+    border-radius: 7px;
+    
+
+}
+
+
+
+
+/* Third Section */
+.actionadvantureMovies{
+    display: flex;
+    margin-top: 10px;
+}
+.actionadvanture > .actionadvantureMovies > div{
+     height: 300px;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-end;
+    gap: 5px;
+    border-radius: 7px;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+footer{
+   
+    background-color:rgba(17, 17, 17);
+    color: white;
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+}
