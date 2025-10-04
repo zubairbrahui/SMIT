@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+
+
+
+
+   
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: "Arial", sans-serif;
+           
+            
+        }
+
+
+        header{
+            display: flex;
+            justify-content: space-between;
+           
+            align-items: center;
+            padding: 3px;
+        }
+        #logo > h1{
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        ul,li,a{
+            display: inline;
+            color: black;
+            margin-right: 5px;
+        }
+
+
+
+
+
+        main{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+
+        section.maintop{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-flow: wrap column;
+            text-align: center;
+            height: 250px;
+            background-color:  #e63946;
+            color: white;
+            
+        }
+
+        section.maintop>h2{
+            font-size: 40px;
+            margin-bottom: 10px;
+            
+        }
+        section.maintop>p{
+            font-size: 18px;
+          
+          
+        }
+       
+        .buttons > button{
+            font-size: 15px;
+            padding: 15px;
+            margin-top: 20px;
+
+        }
+        #viewmenuBtn{
+            background-color: white;
+            border: 0;
+            border-radius: 10px;
+        }
+        #reserveBtn{
+            background-color: #e63946;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+
+
+        section.mainmid > h2{
+            text-align: center;
+            margin-top: 60px;
+        }
+        section.mainmid > div.lists{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+     
+            padding: 20px;
+            margin-top: 50px;
+            
+        }
+
+        div.lists >div{
+            width: 360px;
+            
+        }
+        .icons{
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 255, 0.158);
+            border-radius: 50%;
+            margin-bottom: 20px;
+            color: blue;
+            
+        }
+
+        div.lists >div >p{
+            margin-top: 10px;
+        }
+        section.mainbottom{
+            display: flex;
+            justify-content: center;
+            flex-direction: column; 
+            align-items: center ;
+            background-color: #e63946;
+            color: white;
+            margin-top: 50px;
+            height: 200px;
+        }
+
+         section.mainbottom > h2 {
+            margin-bottom: 20px;
+         }
+
+        section.mainbottom >button{
+            background-color: white;
+            border: 0;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 600px;
+            padding: 10px 15px;
+            margin-top: 20px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        footer >h3{
+             margin-bottom: 10px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <header>
+        
+        <div id="logo">
+            <h1>Taj Restaurant</h1>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="$">Home</a></li>
+            <li><a href="$">Features</a></li>
+            <li><a href="$">Pricing</a></li>
+            <li><a href="$">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="maintop">
+            <h2>Authentic Flavors</h2>
+            <p>Experience culinary exellence with our handcrafted dishes made from fresh, ingredients.</p>
+            <div class="buttons">
+                <button id="viewmenuBtn">View Menu</button>
+                <button id="reserveBtn">Reserve Table</button>
+            </div>
+        </section>
+
+
+
+        <section class="mainmid">
+            
+          <h2>Our Specialties</h2>
+
+          <div class="lists">
+
+            <div>
+                <div class="icons"> <i class="fa-solid fa-bolt"></i></div>
+               
+                <h4>Fresh ingredients</h4>
+                <p>We source only the freshest local ingredients for all our dishes.</p>
+            </div>
+
+            <div>
+
+                <div  class="icons"><i class="fa-solid fa-table-list"></i></div>
+               
+                <h4>Seasonal Menu</h4>
+                <p>Our menu changes with the seasons to bering you best flavors</p>
+            </div>
+
+            <div>
+                <div  class="icons"><i class="fa-solid fa-pen-to-square"></i></div>
+                
+                <h4>Artisan Chefs</h4>
+                <p>Our chefs bring years of experience and passion to every dish</p>
+            </div>
+          </div>
+
+        </section>
+
+
+
+        <section class="mainbottom">
+            <h2>Hungry Yet?</h2>
+            <p>Book your table now and experience our culinary creations.</p>
+            <button>Make Reservation</button>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Taj Restaurant</h3>
+        <div> @2025 Taj Restaurant.All rights reserved.</div>
+    </footer>
+</body>
+</html>

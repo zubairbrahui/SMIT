@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;  
+            text-decoration: none;
+            list-style: none;
+        }
+        body{
+            font-family: "Roboto";
+        }
+        header{
+           
+            display: flex ;
+            align-items: center;
+            justify-content: space-between;
+           padding: 10px  0;
+           width: 72%;
+           margin: auto;
+
+            
+            
+        }
+        ul,li,a{
+            display: inline;
+            margin: 0 5px;
+            color: rgba(83, 112, 145);
+            font-weight: bolder;
+
+        }
+
+
+        section.firstsection{
+           
+           background-color: rgba(206, 216, 231);
+          
+        
+        }
+
+        #topfirst{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px 0;
+          
+
+        }
+        #topfirst > div> img{
+            border-radius: 50%;
+        }
+        
+        
+        
+
+        .info > h2{
+            margin-top: 10px;
+            color: rgba(81, 85, 99);
+        }
+        .info > p{
+            margin-top: 15px;
+            color: rgb(74, 75, 77);
+
+        }
+        
+        #btn{
+            margin-top: 15px;
+            background-color: green;
+           background-color: rgba(37, 99, 235);
+           color: white;
+           padding: 10px 25px;
+           font-size: 16px;
+           font-weight: bolder;
+           border: none;
+           border-radius: 10px;
+
+        }
+
+        .secoundsection > h2{
+            text-align: center;
+            margin-top: 50px;
+        }
+
+
+        section > .projectlist{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            
+        }
+
+        .projectlist > .lists {
+            margin: 10px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            border: 1px solid rgba(235, 222, 222, 0.795);
+        }
+        .lists > img{
+          width: 100%;
+          border-top-left-radius: 8px;
+          border-top-right-radius:8px;
+        }
+        .lists > div{
+            padding: 10px;
+            
+        }
+
+        .lists > div > h4{
+            margin-top: 12px;
+        }
+        .lists > div > p{
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: rgb(64, 65, 68);
+        }
+        /* pseudo classes */
+        .lists > div  >a:link{
+            color: blue;
+        }
+
+        .lists > div  >a:link{
+            color: blue;
+        }
+
+
+        footer{
+            
+            background-color: rgba(31, 41, 55);
+            color: white;
+             padding: 10px ;
+        }
+        footer > .allfooter {
+            width: 75%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        footer > .allfooter >div {
+            font-size: 30px;    
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Portfolio</h2>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Content</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section class="firstsection">
+                <div id="topfirst">
+            <div class="info">
+                <h1>Hi, I'm Zubair Ahmed</h1>
+                <h2>Frontend Developer</h2>
+                <p>I build beautiful, responsive websites with modren technologies.</p>
+                <button id="btn">Get In Touch</button>
+            </div>
+
+            <div >
+                <img src="https://images.unsplash.com/photo-1626218174358-7769486c4b79?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtaW5nJTIwcGN8ZW58MHx8MHx8fDA%3D" alt="" width="300" height="300" >
+            </div>
+                </div>
+        </section>
+
+        <section class="secoundsection">
+            <h2>My Projects</h2>
+            <div class="projectlist">
+
+
+                <div class="lists">
+                    <img src="https://media.istockphoto.com/id/1316372316/photo/shot-of-a-young-businessman-using-a-laptop-during-a-late-night-in-a-modern-office.jpg?s=612x612&w=0&k=20&c=Xb5GLJ9Eh1Y68m6I0eV6IWsx8PnJbTFfRS9lfghqPYY=" alt="" >
+                    <div>
+                        <h4>E-commerce Website</h4>
+                        <p>A fully responsive e-commerce platform built with React and Node.js.</p>
+                        <a href="nothing">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    
+                </div>
+
+                <div class="lists">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAXLwNW-XcsLUAks2Qyy2ryToKA8t6WmPveQ&s" alt="" >
+                    <div>
+                        <h4>Task Management App</h4>
+                          <p>A productivity application for managing daily tasks and projects.</p>
+                          <a href="nothing">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                     </div>
+                    
+                </div>
+
+                <div class="lists">
+                    <img src="https://images.pexels.com/photos/5710528/pexels-photo-5710528.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" alt="" width="300px" height="200px">
+                    <div>
+                        <h4>Whether Deshboard</h4>
+                    <p>Real-time whether information with 5-days forecast of any language</p>
+                    <a href="nothing">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+             <div class="allfooter">
+        <span>&copy; Zubair Ahmed. All rights reserved.</span>
+        <div class="accounts">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+           <i class="fa-brands fa-instagram"></i>
+                </div>
+        </div>
+       
+    </footer>
+    
+</body>
+</html>
